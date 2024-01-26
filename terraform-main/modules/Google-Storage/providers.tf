@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-        credentials = file("C:/Users/mateoacarrero/Library/CloudStorage/OneDrive-UniversidaddeAlmeria/Entregas de Cloud/Lab 06/terraform-main/gcp-identity.json")
+        credentials = file("/home/ubuntu/vm/Lab-06/terraform-main/gcp-identity.json")
 
     project = var.gcp_project
     region  = "us-central1"

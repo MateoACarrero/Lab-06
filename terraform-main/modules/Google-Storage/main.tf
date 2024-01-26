@@ -23,14 +23,14 @@ location = "europe-west2"
 # Sube imagen 1
 resource "google_storage_bucket_object" "imagen1" {
   name   = "imagen1"
-  source = "/Users/mateoacarrero/Library/CloudStorage/OneDrive-UniversidaddeAlmeria/Entregas de Cloud/Lab 06/terraform-main/images/el_enigma_de_la_habitacion_622.jpg"
+  source = "/home/ubuntu/vm/Lab-06/terraform-main/images/el_enigma_de_la_habitacion_622.jpg"
   bucket = google_storage_bucket.bucket.name
 }
 
 # Sube imagen 2
 resource "google_storage_bucket_object" "imagen2" {
   name   = "imagen2"
-  source = "/Users/mateoacarrero/Library/CloudStorage/OneDrive-UniversidaddeAlmeria/Entregas de Cloud/Lab 06/terraform-main/images/una_historia_de_espana.jpg"
+  source = "/home/ubuntu/vm/Lab-06/terraform-main/images/una_historia_de_espana.jpg"
   bucket = google_storage_bucket.bucket.name
 }
 

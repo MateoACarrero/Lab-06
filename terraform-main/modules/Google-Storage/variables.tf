@@ -12,5 +12,5 @@ variable "gcp_project"{
 
 variable "gcp_bucket_name"{
     description = "GCP bucket name"
-    default     = "terraform"
+    default     = "cloud-computing-mch517-lab06"
 }

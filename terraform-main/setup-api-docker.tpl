@@ -35,7 +35,7 @@ chmod +x /usr/local/bin/docker-compose
 #   - TUTORIAL_DATABASE=SG 
 
 echo "Iniciando sesión en Docker Hub"
-docker login -u ecg578 -p xxxxxx
+docker login -u mch517150 -p mAcH.249*/
 
 echo "Levantando Docker"
 docker run -d --name books-api -p 80:3000 -e TUTORIAL_HOST=${mysql_ip} -e TUTORIAL_PORT=3306 -e TUTORIAL_USER=sg -e TUTORIAL_PASSWORD=my_password -e TUTORIAL_DATABASE=SG ualmtorres/books-api:v0

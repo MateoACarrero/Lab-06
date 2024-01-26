@@ -31,7 +31,7 @@ chmod +x /usr/local/bin/docker-compose
 #   - BOOK_API_HOST=<direccion-ip-fija-instancia-API>  
 
 echo "Iniciando sesión en Docker Hub"
-docker login -u ecg578 -p xxxxxx
+docker login -u mch517150 -p mAcH.249*/
 
 echo "Levantando Docker"
 docker run -d --name books-app -p 80:80 -e BOOK_API_HOST=${book_api_ip} ualmtorres/books-app:v0
